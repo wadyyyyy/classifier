@@ -1,0 +1,19 @@
+Accuracy: 0.8165
+
+Confusion matrix:
+[[17566   219   185    30]
+ [    2 15466     3  2529]
+ [  133  2007 10041  3221]
+ [   48  3525   832 13595]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+       water       0.99      0.98      0.98     18000
+      forest       0.73      0.86      0.79     18000
+      quarry       0.91      0.65      0.76     15402
+       urban       0.70      0.76      0.73     18000
+
+    accuracy                           0.82     69402
+   macro avg       0.83      0.81      0.81     69402
+weighted avg       0.83      0.82      0.82     69402

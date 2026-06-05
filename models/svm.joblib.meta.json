@@ -1,0 +1,30 @@
+{
+  "class_names": [
+    "water",
+    "forest",
+    "quarry",
+    "urban"
+  ],
+  "class_to_id": {
+    "water": 1,
+    "forest": 2,
+    "quarry": 3,
+    "urban": 4
+  },
+  "id_to_class": {
+    "1": "water",
+    "2": "forest",
+    "3": "quarry",
+    "4": "urban"
+  },
+  "features": [
+    "B02",
+    "B03",
+    "B04",
+    "B08"
+  ],
+  "model": "SVM",
+  "kernel": "rbf",
+  "C": 10.0,
+  "gamma": "scale"
+}
